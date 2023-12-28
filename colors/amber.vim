@@ -16,7 +16,7 @@ if &background == "dark" " set background=dark
   hi Normal ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi NonText ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi ColorColumn ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
-  hi Cursor ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
+  hi Cursor ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=NONE gui=reverse
   hi CursorColumn ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
   hi CursorIM ctermfg=208 ctermbg=none cterm=reverse guifg=#ff8700 guibg=#000000 gui=reverse
   hi CursorLine ctermfg=233 ctermbg=214 cterm=reverse guifg=#121212 guibg=#ffaf00 gui=reverse
@@ -28,7 +28,7 @@ if &background == "dark" " set background=dark
   hi Conceal ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi IncSearch ctermfg=none ctermbg=166 cterm=none guifg=#000000 guibg=#d75f00 gui=none
   hi LineNr ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
-  hi MatchParen ctermfg=234 ctermbg=214 cterm=bold,reverse guifg=#1c1c1c guibg=#ffaf00 gui=bold,reverse
+  hi MatchParen ctermbg=95 ctermfg=221 cterm=bold guibg=#875f5f guifg=#ffd75f gui=bold
   hi ModeMsg ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi MoreMsg ctermfg=208 ctermbg=none cterm=none guifg=#ff8700 guibg=#000000 gui=none
   hi Pmenu ctermfg=166 ctermbg=234 cterm=none guifg=#d75f00 guibg=#1c1c1c gui=none
